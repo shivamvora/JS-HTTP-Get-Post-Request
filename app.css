@@ -14,6 +14,8 @@
     background-color: indigo;
     color: white;
     border: 1px solid white;
+    cursor: pointer;
+    outline: none;
 }
 
 #post-btn{
@@ -22,4 +24,6 @@
     background-color: indigo;
     color: white;
     border: 1px solid white;
+    cursor: pointer;
+    outline: none;
 }
