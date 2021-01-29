@@ -1,10 +1,11 @@
 #control-center{
-    height: 500px;
-    width: 400px;
+    min-height: 250px;
+    max-width: 300px;
     border: 2px solid gray;
     place-items: center;
-    display: grid;
+    display: flex;
     background-color: wheat;
+    justify-content: space-evenly;
     
 }
 
