@@ -1,0 +1,25 @@
+#control-center{
+    height: 500px;
+    width: 400px;
+    border: 2px solid gray;
+    place-items: center;
+    display: grid;
+    background-color: wheat;
+    
+}
+
+#get-btn{
+    padding: 15px;
+    font-size: 15px;
+    background-color: indigo;
+    color: white;
+    border: 1px solid white;
+}
+
+#post-btn{
+    padding: 15px;
+    font-size: 15px;
+    background-color: indigo;
+    color: white;
+    border: 1px solid white;
+}
