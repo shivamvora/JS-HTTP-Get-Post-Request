@@ -3,14 +3,15 @@ const postBtn = document.getElementById('post-btn');
 
 const getData = () => {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET','https://reqres.in/api/users?page=2');
+    xhr.open('GET','https://reqres.in/api/users?page=2'); 
 
     xhr.onload = () => {
-        console.log(xhr.response);
+        const data = JSON.parse(xhr.response);
+        console.log(data);  
     };
 
 
-    xhr.send();
+    xhr.send(); // send request
 };
 
 const sendData = () => {};
